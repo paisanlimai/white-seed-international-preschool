@@ -588,7 +588,27 @@
       }
 
     }
+/* =========================
+   WEBSITE VIDEO
+========================= */
 
+.website-video {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto 0 auto;
+  text-align: center;
+}
+
+.website-video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 20px;
+  background: #000;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
   </style>
 
 </head>
@@ -680,7 +700,27 @@
   <a class="btn" href="#">
     Apply Now
   </a>
+  
+<!-- =========================
+     WEBSITE VIDEO
+========================= -->
 
+<div class="website-video">
+  <video
+    autoplay
+    muted
+    playsinline
+    loop
+    controls
+    preload="auto"
+    width="100%">
+
+    <source src="./SchoolVDO11.mp4" type="video/mp4">
+
+    เบราว์เซอร์ของคุณไม่รองรับการเล่นวิดีโอ
+  </video>
+</div>
+  
 </section>
 
 
